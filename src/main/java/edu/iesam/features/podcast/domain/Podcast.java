@@ -1,14 +1,14 @@
-package edu.iesam.features.songsrepeated.domain;
+package edu.iesam.features.podcast.domain;
 
-public class Song2 {
+public class Podcast {
     private String id;
-    private String title;
+    private String tittle;
     private String author;
     private String duration;
 
-    public Song2(String id, String title, String author, String duration) {
+    public Podcast(String id, String tittle, String author, String duration) {
         this.id = id;
-        this.title = title;
+        this.tittle = tittle;
         this.author = author;
         this.duration = duration;
     }
@@ -21,12 +21,12 @@ public class Song2 {
         this.id = id;
     }
 
-    public String getTitle() {
-        return title;
+    public String getTittle() {
+        return tittle;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setTittle(String tittle) {
+        this.tittle = tittle;
     }
 
     public String getAuthor() {
@@ -44,7 +44,8 @@ public class Song2 {
     public void setDuration(String duration) {
         this.duration = duration;
     }
+    @Override
     public String toString() {
-        return String.format("id: %s | title: %s | author: %s | duration: %s", id, title, author, duration);
+        return String.format("ID: %s   | Tittle: $s  | Author: %s", id, tittle, author);
     }
 }

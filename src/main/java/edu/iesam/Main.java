@@ -2,6 +2,7 @@ package edu.iesam;
 
 import edu.iesam.features.albums.presentation.AlbumView;
 import edu.iesam.features.authors.presentation.AuthorView;
+import edu.iesam.features.podcast.presentation.PodcastView;
 import edu.iesam.features.songs.presentation.SongView;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -19,5 +20,9 @@ public class Main {
         AlbumView.printAlbums();
         AlbumView.saveAlbum();
         AlbumView.deleteAlbum();
+
+        PodcastView.getPodcast();
+        PodcastView.savePodcast();
+
     }
 }
