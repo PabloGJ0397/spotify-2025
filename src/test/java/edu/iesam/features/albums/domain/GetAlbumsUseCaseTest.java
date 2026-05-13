@@ -1,10 +1,8 @@
 package edu.iesam.features.albums.domain;
 
-import edu.iesam.features.albums.data.AlbumDataRepository;
-import edu.iesam.features.albums.data.AlbumMemLocalDataSource;
-import edu.iesam.mocks.AlbumMockRepository;
-import edu.iesam.mocks.EmptyAlbumMockRepository;
-import edu.iesam.mocks.NullAlbumMockRepository;
+import edu.iesam.mocks.albums.AlbumMockRepository;
+import edu.iesam.mocks.albums.EmptyAlbumMockRepository;
+import edu.iesam.mocks.albums.NullAlbumMockRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

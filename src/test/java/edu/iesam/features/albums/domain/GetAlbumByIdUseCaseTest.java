@@ -1,7 +1,7 @@
 package edu.iesam.features.albums.domain;
 
-import edu.iesam.mocks.AlbumMockRepository;
-import edu.iesam.mocks.NullAlbumMockRepository;
+import edu.iesam.mocks.albums.AlbumMockRepository;
+import edu.iesam.mocks.albums.NullAlbumMockRepository;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

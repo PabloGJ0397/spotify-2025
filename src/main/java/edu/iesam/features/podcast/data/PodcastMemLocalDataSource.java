@@ -21,4 +21,7 @@ public class PodcastMemLocalDataSource {
     public void savePodcast(Podcast podcast){
         storage.add(podcast);
     }
+    public void savePodcasts(Podcast p){
+        storage.add(p);
+    }
 }

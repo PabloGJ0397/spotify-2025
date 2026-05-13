@@ -9,7 +9,7 @@ public class SaveAlbumUseCase {
     private AlbumRepository albumRepository;
 
 
-    public SaveAlbumUseCase(AlbumDataRepository albumRepository) {
+    public SaveAlbumUseCase(AlbumRepository albumRepository) {
         this.albumRepository = albumRepository;
     }
 

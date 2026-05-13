@@ -1,4 +1,4 @@
-package edu.iesam.mocks;
+package edu.iesam.mocks.albums;
 
 import edu.iesam.features.albums.domain.Album;
 import edu.iesam.features.albums.domain.AlbumRepository;
